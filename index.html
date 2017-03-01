@@ -1,57 +1,134 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Keven by keven01</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <title>首页</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
+    <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
+    <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
+    <link rel="stylesheet" href="assets/css/urku.css">
   </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Keven</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/keven01/keven" class="btn">View on GitHub</a>
-      <a href="https://github.com/keven01/keven/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/keven01/keven/tarball/master" class="btn">Download .tar.gz</a>
+  <body class="top-fixed">
+    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
+      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+      <label for="mobile-menu">
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#bar"></use>
+        </svg>
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#bar"></use>
+        </svg>
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#bar"></use>
+        </svg>
+      </label>
+      <div class="ae-container-fluid rk-topbar">
+        <h1 class="rk-logo"><a href="index.html"><img src="assets/img/logo-01.jpg" style="height: 3rem;margin-left: 3rem;"</a></h1>
+        <nav class="rk-navigation">
+          <ul class="rk-menu">
+            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">体汇+</a>
+            	<nav class="rk-menu__sub">
+                <ul class="rk-container">
+                  <li class="rk-menu__item"><a href="about_th.html" class="rk-menu__link">关于体汇+</a></li>
+                  <li class="rk-menu__item"><a href="about_th_lc.html" class="rk-menu__link">里程碑</a></li>
+                  <li class="rk-menu__item"><a href="about_th_qc.html" class="rk-menu__link">体汇+球场</a></li>
+                  <li class="rk-menu__item"><a href="about_th_zykg.html" class="rk-menu__link">仲益控股</a></li>
+                </ul>
+              </nav>
+            </li>
+            <li class="rk-menu__item"><a href="th_xw_kb.html" class="rk-menu__link">体汇+新闻</a>
+              <nav class="rk-menu__sub">
+                <ul class="rk-container">
+                  <li class="rk-menu__item"><a href="th_xw_kb.html" class="rk-menu__link">快报</a></li>
+                  <li class="rk-menu__item"><a href="th_xw_ss.html" class="rk-menu__link">最新赛事</a></li>
+                </ul>
+              </nav>
+            </li>
+            <li class="rk-menu__item"><a href="th_sw_cd.html" class="rk-menu__link">商务合作</a>
+            	<nav class="rk-menu__sub">
+                <ul class="rk-container">
+                  <li class="rk-menu__item"><a href="th_sw_cd.html" class="rk-menu__link">场地提供</a></li>
+                  <li class="rk-menu__item"><a href="th_sw_gg.html" class="rk-menu__link">赛事冠名与广告位投放</a></li>
+                  <li class="rk-menu__item"><a href="th_sw_wxzq.html" class="rk-menu__link">五星足球节目</a></li>
+                </ul>
+              </nav>
+            </li>
+            <li class="rk-menu__item"><a href="th_qx_gef.html" class="rk-menu__link">体汇+青训</a>
+              <nav class="rk-menu__sub">
+                <ul class="rk-container">
+                  <li class="rk-menu__item"><a href="th_qx_gef.html" class="rk-menu__link">高尔夫</a></li>
+                  <li class="rk-menu__item"><a href="th_qx_zq.html" class="rk-menu__link">足球</a></li>
+                </ul>
+              </nav>
+            </li>
+            <li class="rk-menu__item"><a href="th_contact_cdyy.html" class="rk-menu__link">加入我们</a>
+            	<nav class="rk-menu__sub">
+                <ul class="rk-container">
+                  <li class="rk-menu__item"><a href="th_contact_cdyy.html" class="rk-menu__link">场地提供与合作运营</a></li>
+                  <li class="rk-menu__item"><a href="th_contact.html" class="rk-menu__link">招贤纳士</a></li>
+                </ul>
+              </nav>
+            </li>
+            <li class="rk-menu__item"><a href="#0" class="rk-menu__link"><span class="font_bk">ENGLISH</span></a>
+            </li>
+          </ul>
+          <form class="rk-search">
+            <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
+            <label for="urku-search">
+              <svg>
+                <use xlink:href="assets/img/symbols.svg#icon-search"></use>
+              </svg>
+            </label>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <section class="ae-container-fluid ae-container-fluid--full">
+      <header class="rk-portfolio-cover  item-inside-index-1">
+        <div class="item-inside__meta"></div>
+      </header>
+      <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
+        <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
+          <div class="ae-grid__item item-lg-5 au-lg-ptp-1">
+            <p class="ae-u-bolder">体汇+黄兴全民体育公园</p>
+            <p >杨浦区国顺东路410号</p>
+            <p class="au-mb-3">拥有全国最大的高尔夫球练习场和近50个VIP高尔夫休闲运动包房，拥有近300根球道，可供同时开放。为此，还获得了由上海大世界基尼斯总部所颁发的“可容纳最多人同时挥杆的高尔夫练习场”殊荣。另外，球场内还开设了囊括了几乎所有高尔夫常用品牌的高尔夫用品直销商业街与奥特莱斯品牌专卖店。</p>
+          </div>
+          <div class="ae-grid__item item-lg-6 item-lg--offset-1"><img src="assets/img/index_hx.jpg" alt="Urku Portfolio"></div>
+        </div>
+        <div class="ae-grid ae-grid--collapse">
+          <div class="ae-grid__item item-lg-8"><img src="assets/img/index_soccer-ball.jpg" alt="Urku Portfolio"></div>
+          <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
+            <p>闵行区吴中路2088号</p>
+            <p class="au-mb-3">开创了首个PPP模式下的综合型体育地产形态的先河。其中，一期开放的体汇+五星足球公园，更是体汇+品牌与SMG旗下的王牌栏目——“五星足球”的一次强强联手之作。将传统媒体与互联网+科技进行相结合，集线上与线下资源为一体，共享互补、互赢互利。迈出了品牌性连锁足球公园的第一步。</p>
+            <p class="ae-u-bolder">体汇+闵行文化公园</p>
+          </div>
+        </div>
     </section>
-
-    <section class="main-content">
-      <h3>
-<a id="欢迎来到我的网页" class="anchor" href="#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>欢迎来到我的网页.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/keven01/keven">Keven</a> is maintained by <a href="https://github.com/keven01">keven01</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
+    <!--<div class="footer">
+			<iframe src="footer.html" frameborder="0"  scrolling="no"></iframe>
+		</div>-->
+    <footer class="ae-container-fluid rk-footer ">
+      <div class="ae-grid ae-grid--collapse">
+        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
+          <ul class="rk-menu rk-footer-menu">
+            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">关于体汇+</a>
+            </li>
+            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">体汇+球场</a>
+            </li>
+            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">联系我们</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ae-grid ae-grid--collapse">
+       		<div class="ae-grid__item item-lg-8 au-xs-ta-center au-lg-ta-left">
+        		<p class="rk-footer__text rk-footer__copy "> Copyright <span class="ae-u-bold">© </span><span class="ae-u-bolder">2011 上海仲益体育场管理有限公司版权所有ICP证：ICP备1004034号 </span>CNNZZ流量统计</p>
+       		</div>
+      </div>
+    </footer>
+    <script src="assets/js/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
   </body>
 </html>
