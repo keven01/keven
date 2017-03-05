@@ -1580,7 +1580,7 @@ html {
 		
 	}
 	.item-lg-8 img{
-		height: 622px;
+		height: 423px;
 		width: 100%;
 	}
 	.item-lg-9 {
@@ -1720,6 +1720,9 @@ html {
 	}
 	.item-lg--offset-1 {
 		margin-left: 8.33333%
+	}
+	#img-coo{
+		height: 24rem;
 	}
 	.item-lg--offset-2 {
 		margin-left: 16.66667%
@@ -4602,7 +4605,7 @@ select.ae-input--lg {
 
 @media (min-width:64em) {
 	.au-lg-ptp-1 {
-		padding-top: 0.33333%;
+		padding-top: 8.33333%;
 	}
 	.img-responsive{
 		width: 620px;
