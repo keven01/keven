@@ -93,6 +93,10 @@ html {
 		max-width: 68.88889em;
 		width: 82vw
 	}
+	.img-responsive{
+		width: 621px;
+		height: 466px;
+	}
 }
 
 .ae-container-fluid--full {
@@ -106,6 +110,10 @@ html {
 	.ae-container-fluid {
 		padding-left: .25rem;
 		padding-right: .25rem
+	}
+	.img-responsive{
+		width: 621px;
+		height: 466px;
 	}
 }
 
@@ -1563,7 +1571,7 @@ html {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
-		flex: 0 0 66.66667%;
+		flex: 0 0 50%;
 		max-width: 66.66667%
 	}
 	.item-lg-9 {
@@ -2563,7 +2571,7 @@ pre code {
 }
 
 img {
-	height: auto
+	height: auto;
 }
 
 table {
@@ -4585,7 +4593,11 @@ select.ae-input--lg {
 
 @media (min-width:64em) {
 	.au-lg-ptp-1 {
-		padding-top: 0.33333%
+		padding-top: 0.33333%;
+	}
+	.img-responsive{
+		width: 620px;
+    	height: 423px;
 	}
 	.au-lg-ptp-2 {
 		padding-top: 16.66667%

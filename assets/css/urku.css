@@ -1200,7 +1200,7 @@ s  letter-spacing: 2.25px;
 }
 
 .item-4 {
-  background-image: url("../img/qc_hx_1.jpg");
+  background-image: url("../img/c_qc_kx_1.jpg");
 }
 
 .item-5 {
@@ -1462,6 +1462,21 @@ s  letter-spacing: 2.25px;
     background-image: url("../img/th_hx_gy_1.jpg");
   }
 }
+@media screen and (max-width: 600px){
+	.court-img-responsive{
+	height: 45vh;
+    padding-bottom: 1.5rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	.post-img{
+	height: 45vh;
+    padding-bottom: 1.5rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow:hidden
+	}
+}
 @media (min-width: 40em) {
   .item-inside-hx {
     background-position: center center;
@@ -1518,6 +1533,7 @@ s  letter-spacing: 2.25px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .item-inside-index-1 {
    background-image: url("../img/c_index_bar.jpg");
@@ -1530,7 +1546,18 @@ s  letter-spacing: 2.25px;
 	background-size: 100% 50%;
 	}
 	.au-xs-ptp-1{
+		margin-top: 20px;
+	}
+	.index{
 		margin-top: -90px;
+	}
+	.index img{
+		height: 215px;
+    	width: 100%;
+	}
+	.img-responsive{
+		height: 228px;
+		width: 100%;
 	}
 }
 
