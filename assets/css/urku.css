@@ -1420,6 +1420,9 @@ s  letter-spacing: 2.25px;
     padding-bottom: 1.5rem;
 	background-size: 100% 50%;
   }
+	
+}
+@media screen and (max-width: 600px){
 	.au-xs-ptp-1{
 		margin-top: 20px;
 	}
@@ -1430,6 +1433,7 @@ s  letter-spacing: 2.25px;
 		margin-top: -80px;
 	}
 }
+
 @media (min-width: 40em) {
   .item-inside-wxzq  {
     background-position: center center;
