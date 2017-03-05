@@ -1525,13 +1525,12 @@ s  letter-spacing: 2.25px;
 }
 @media screen and (max-width: 600px){
 	.item-inside-index-1 {
-	width: 100vw;
 	height: 80vh;
     padding-bottom: 1.5rem;
 	background-size: 100% 50%;
 	}
 	.au-xs-ptp-1{
-		margin-top: -100px;
+		margin-top: -90px;
 	}
 }
 
