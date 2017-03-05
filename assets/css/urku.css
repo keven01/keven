@@ -47,6 +47,9 @@ background-size: 60% auto;
     padding-right: 0;
   }
 }
+  .rk-container .rk-menu__item{
+  	font-size: 15px;
+  }
 
 .rk-main {
   z-index: 1;
@@ -68,6 +71,7 @@ background-size: 60% auto;
   background-color: #fff;
   position: relative;
   z-index: 5;
+  height: 100px;
 }
 .top-fixed .rk-header {
   position: fixed;
@@ -93,7 +97,7 @@ background-size: 60% auto;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 3.3rem;
+  padding-bottom: 1.3rem;
   padding-top: 2.8rem;
 }
 @media (min-width: 64em) {
@@ -101,21 +105,18 @@ background-size: 60% auto;
     padding-bottom: 0;
   }
 }
-
 .rk-logo {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
-  font-size: 1.375rem;
-  font-weight: 700;
-  letter-spacing: 2.25px;
+s  letter-spacing: 2.25px;
   text-align: center;
   text-transform: uppercase;
   width: 20%;
+
 }
 .rk-logo sup {
-  font-size: .5625rem;
   position: relative;
   top: -1px;
 }
@@ -1519,10 +1520,21 @@ background-size: 60% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .item-inside-index-1 {
-   /*background-size: 100% 100%;*/
    background-image: url("../img/c_index_bar.jpg");
   }
 }
+@media screen and (max-width: 600px){
+	.item-inside-index-1 {
+	width: 100vw;
+	height: 80vh;
+    padding-bottom: 1.5rem;
+	background-size: 100% 50%;
+	}
+	.au-xs-ptp-1{
+		margin-top: -100px;
+	}
+}
+
 @media (min-width: 40em) {
   .item-inside-index-1 {
     background-size: 100% 100%;
@@ -1545,7 +1557,6 @@ background-size: 60% auto;
     background-size: 100% 100%;
   }
 }
-
 .post-inside-1 {
   background-image: url("../img/post-1.jpg");
 }
@@ -2176,7 +2187,7 @@ background-size: 60% auto;
   color: #F3D825;
 }
 .rk-menu__link {
-  padding-bottom: 4.2rem;
+  padding-bottom: 2.2rem;
 }
 .rk-menu__sub {
   background-color: white;
@@ -2209,7 +2220,7 @@ background-size: 60% auto;
   -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 1.375rem .5rem;
-  max-width: 101rem;
+  max-width: 141rem;
 }
 .rk-menu__item:hover > .rk-menu__sub {
   opacity: 1;
