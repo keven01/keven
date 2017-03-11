@@ -2317,6 +2317,13 @@ s  letter-spacing: 2.25px;
   padding: 0;
   padding-top: .16rem;
 }
+#en {
+  color: #202020;
+  display: inherit;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .rk-menu__item {
   color: #202020;
   display: inherit;
