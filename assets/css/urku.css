@@ -2529,3 +2529,12 @@ s  letter-spacing: 2.25px;
   color: #787878;
 }
 .font_bk{border:3px solid #000000;background-color: #000000;color: #FFFFFF;}
+
+#joinusp{
+	margin-top: 0rem;
+	margin-bottom: -1rem;
+}
+
+.join{
+	margin-bottom: 1rem;
+}

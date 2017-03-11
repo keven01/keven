@@ -4607,6 +4607,9 @@ select.ae-input--lg {
 	.au-lg-ptp-1 {
 		padding-top: 8.33333%;
 	}
+	#ptp-join{
+		padding-top: 0;
+	}
 	.img-responsive{
 		width: 620px;
     	height: 423px;
