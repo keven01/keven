@@ -16,7 +16,14 @@ background: url("../img/beijin.jpg");
 background-size: 60% auto;
 -moz-background-size:63px 100px; /* 老版本的 Firefox */
 }
-
+div {
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+	text-align: justify;
+}
 .rk-container {
   margin-right: auto;
   margin-left: auto;
@@ -1820,7 +1827,7 @@ s  letter-spacing: 2.25px;
   margin-top: -0.1rem;
   letter-spacing: .05em;
   line-height: 1.8125;
-  text-align: left;
+  text-align: justify;
 }
 /*.blog-info__excerpt:not(:empty):after {
   content: " […]";
@@ -2313,7 +2320,7 @@ s  letter-spacing: 2.25px;
 .rk-menu__item {
   color: #202020;
   display: inherit;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
   padding-right: 1.5rem;
 }
 .rk-menu__item:first-child {
