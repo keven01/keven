@@ -4616,6 +4616,9 @@ select.ae-input--lg {
 	.au-lg-ptp-1 {
 		padding-top: 8.33333%;
 	}
+	#mile-special{
+		padding-top: 3.33333%;
+	}
 	#events-zhaosheng{
 		padding-top: 6.33333%;
 	}
@@ -4627,7 +4630,7 @@ select.ae-input--lg {
 	}
 	.img-responsive{
 		width: 620px;
-    	height: 423px;
+    	height: 500px;
 	}
 	#img-responsive-index{
 		width: 837px;
