@@ -1604,6 +1604,9 @@ html {
 		flex: 0 0 91.66667%;
 		max-width: 91.66667%
 	}
+	#events-study{
+		padding-top: 5rem;
+	}
 	.item-lg-12 {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 100%;
@@ -4301,6 +4304,9 @@ select.ae-input--lg {
 	.au-sm-ptp-1 {
 		padding-top: 8.33333%
 	}
+	#events-zhaosheng{
+		padding-top:11.33333%;
+	}
 	.au-sm-ptp-2 {
 		padding-top: 16.66667%
 	}
@@ -4454,6 +4460,9 @@ select.ae-input--lg {
 	.au-md-ptp-1 {
 		padding-top: 8.33333%
 	}
+	#events-zhaosheng{
+		padding-top: 6.33333%;
+	}
 	.au-md-ptp-2 {
 		padding-top: 16.66667%
 	}
@@ -4606,6 +4615,12 @@ select.ae-input--lg {
 @media (min-width:64em) {
 	.au-lg-ptp-1 {
 		padding-top: 8.33333%;
+	}
+	#events-zhaosheng{
+		padding-top: 6.33333%;
+	}
+	#events-fee{
+		padding-top: 2.33333%;
 	}
 	#ptp-join{
 		padding-top: 0;

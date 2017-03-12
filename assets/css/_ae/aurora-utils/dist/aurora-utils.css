@@ -1016,6 +1016,9 @@
   .au-xl-pp-12 {
     padding: 100%;
   }
+  #events-title{
+  	 padding-top: 10.33333%;
+  }
 }
 
 .au-xs-ptp-1 {
@@ -1147,6 +1150,9 @@
 @media (min-width: 64em) {
   .au-lg-ptp-1 {
     padding-top: 8.33333%;
+  }
+  #events-zhaosheng{
+  	padding-top:20.33333%;
   }
   .au-lg-ptp-2 {
     padding-top: 16.66667%;
