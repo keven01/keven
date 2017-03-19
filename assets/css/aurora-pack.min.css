@@ -1565,7 +1565,7 @@ html {
 		max-width: 50%
 	}
 	#golf_img{
-		height: 50rem;
+		height: 40rem;
 	}
 	.item-lg-7 {
 		-webkit-box-flex: 0;
@@ -4634,6 +4634,10 @@ select.ae-input--lg {
 	.img-responsive{
 		width: 620px;
     	height: 500px;
+	}
+	.img-responsive_special{
+		width: 100%;
+		height: 100%;
 	}
 	#img-responsive-index{
 		width: 837px;
