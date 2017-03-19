@@ -1593,6 +1593,10 @@ html {
 		flex: 0 0 75%;
 		max-width: 75%
 	}
+	#img-start_special{
+		height: 80%;
+		width: 80%;
+	}
 	.item-lg-10 {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 83.33333%;
