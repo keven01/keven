@@ -4621,7 +4621,8 @@ select.ae-input--lg {
 
 @media (min-width:64em) {
 	.au-lg-ptp-1 {
-		padding-top: 8.33333%;
+		/*padding-top: 8.33333%;*/
+		padding-top: 0;
 	}
 	#mile-special{
 		padding-top: 3.33333%;
