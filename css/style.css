@@ -20,7 +20,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .logo img {
-	height: 62px;
+	/*height: 62px;*/
 	width: 200px;
 	background-color: #F6F6F6;
 	/*font-size: 3em;
@@ -170,7 +170,7 @@ text-decoration: none;
 /***** Header-bottom *****/
 .logo {
 	float: left;
-	padding:30px 0;
+	/*padding:30px 0;*/
 }
 .logo a{
 	display:block;
